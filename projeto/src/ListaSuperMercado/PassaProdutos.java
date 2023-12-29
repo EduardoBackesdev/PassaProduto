@@ -23,7 +23,7 @@ public class PassaProdutos {
 			produto = entrada.next();
 			
 			
-			if(!produto.equals(sair2)){
+			if(!produto.equals(sair2)){ // nao precisava dessa verificação
 				
 				frutas.add(produto);		
 			}
